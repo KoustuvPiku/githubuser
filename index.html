@@ -1,0 +1,60 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ani.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="angular1_2.js"></script>
+    <script src="route.js"></script>
+    <script src="animate.js"></script>
+    <script src="mainCtrl.js"></script>
+    <script src="searchController.js"></script>
+    <script src="userService.js"></script>
+    <script src="userCtrl.js"></script>
+    <style>
+        .even-class{
+            background-color:lavender;
+        }
+        .odd-class{
+            background-color:lightgray;
+        }
+        .custom{
+            position:absolute;right:0%;
+            top:-4%;
+            float: right;
+        }
+        .big strong{
+            font-size: 25px;
+        }
+        /*.icon-div{*/
+            /*top:200px;*/
+            /*right:-11%;*/
+            /*padding:0 !important*/
+        /*}*/
+        /*a{*/
+            /*position:relative;*/
+            /*padding:5px;*/
+        /*}*/
+        /*#btnDiv2{*/
+            /*width:50px;*/
+            /*margin:0;*/
+            /*float:right !important*/
+        /*}*/
+    </style>
+</head>
+<body style="background-color:#24292e;margin:0" ng-app="mainApp" ng-controller="mainCtrl" >
+<div class="nav navbar" style="background-color:black;">
+    <h1 style="color:white;width:50%;margin:auto;padding: 15px"> <i class="fa fa-github"></i>
+        Git-User Search Engine
+    </h1>
+</div>
+<div ng-view>
+
+</div>
+
+</body>
